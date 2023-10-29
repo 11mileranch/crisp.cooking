@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://crisp.cooking/images/salmon-piccata-1.jpg">
+                <img src="Images/82196474-C6CF-4988-A374-E67B3BDC0188/71C84CCE-5FAB-4168-B186-7A94ECBDF1F7.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Salmon Picatta</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">10 mins</span>
+            <b>Cook Time: </b><span itemprop="">25 mins</span>
+            <b>Difficulty: </b><span itemprop="">Medium</span>
+            <b>Servings: </b><span itemprop="">Servings: 6 servings</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://crisp.cooking/recipes/salmonpicatta.html">
+                        <span itemprop="author">Crisp.cooking</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons extra virgin olive oil, separated</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons coconut oil</p><p class="line" itemprop="recipeIngredient"><strong>6</strong> salmon fillets (2 1/2 to 3 ounces each, about 1 to 1 1/4 pounds total), preferably wild-caught King or Sockeye salmon</p><p class="line" itemprop="recipeIngredient"><strong>2 1/4</strong> teaspoon salt, divided</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon ground black pepper, divided</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon mixed seasoning</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> pound angel hair pasta</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> tablespoons unsalted butter, separated</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup onion finely chopped</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> garlic cloves, minced</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> jar of capers, some brine</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup dry white wine or seafood stock</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> lemons sliced</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cups heavy cream</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup baby tomatoes (sliced in half)</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup freshly grated Parmesan cheese</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line"><strong>Warm your oven:</strong></p><p class="line">Set the oven to its lowest setting (mine is 150°F) to keep the salmon warm once it&apos;s cooked.</p><p class="line"><strong>Start the water for pasta:</strong></p><p class="line">Bring a large pot of salted water to boil.</p><p class="line"><strong>Season the salmon fillets:</strong></p><p class="line">Rub both sides of the fillets with 1 teaspoon of the salt, the mixed seasoning, and a 1/2 teaspoon of the black pepper.</p><p class="line"><strong>Sear the salmon:</strong></p><p class="line">Heat 1 tablespoon of the olive oil, 1 tablespoon butter, and 1 tablespoon coconut oil over medium-high heat in a large sauté pan (preferably nonstick). Once the oil starts to ripple in the pan, place the salmon fillets into the pan, skin-side down.</p><p class="line">Press the fillets down gently to make sure the entire surface makes contact with the pan. Sear the salmon fillets for 3 minutes, or until the flesh turns an opaque pink 1/4 of the way up the sides of the fillets.</p><p class="line"><strong>Flip the salmon and keep it hot:</strong></p><p class="line">Use a spatula to flip the salmon and sear it, for an additional 3 minutes.</p><p class="line">Transfer the fillets to a sheet pan and place them in the heated oven while you finish the dish. It’s okay if the salmon is not cooked completely through just yet—it will continue to cook in the oven.</p><p class="line"><strong>Cook the shallot and deglaze the pan:</strong></p><p class="line">In the same pan you used to sear the salmon, heat the remaining tablespoon of olive oil and 2 tablespoons of the butter over medium-high heat. Add the shallot and the garlic to the pan and sauté for 3 minutes, or until glossy and fragrant.</p><p class="line">Pour the white wine and add the lemons into the pan and use a wooden spoon to scrape up any bits of food that have stuck to the bottom of the pan. Add the baby tomato halves, capers, and bring the mixture to a boil.</p><p class="line"><strong>Reduce the sauce and cook the pasta:</strong></p><p class="line">Reduce the sauce in the pan by half by maintaining a boil. This should take 3 to 4 minutes.</p><p class="line"><strong>Cook the pasta:</strong></p><p class="line">By now, your pasta water should be at a rolling boil. Add generous tablespoon of salt to the boiling water and drop the pasta into the middle of the pot. Stir the pasta immediately to separate the noodles.</p><p class="line">Lower the temperature slightly to prevent the water from boiling over and cook the pasta for 4 to 5 minutes, until al dente (or according to package directions). Drain the pasta lightly or save 2 oz pasta water.</p><p class="line"><strong>Finish the sauce:</strong></p><p class="line">Once the liquid in the pan has reduced by half, reduce the heat to medium-low. Slowly stir in the heavy cream and the remaining butter.</p><p class="line">Allow the sauce to come to a simmer, then add the Parmesan, along with the remaining salt and pepper. Taste and adjust the seasoning, if necessary, by adding a bit more salt or pepper.</p><p class="line"><strong>Combine the pasta and sauce:</strong></p><p class="line">Add the pasta to the pan with the sauce. Using tongs, toss in the pasta in the sauce until it is evenly coated.</p><p class="line"><strong>Serve the pasta with the salmon:</strong></p><p class="line">Remove the warm salmon fillets from the oven and arrange on top of the pasta. Serve immediately. While this dish is best enjoyed the same day it’s made, we have had success with reheating the leftovers in the microwave the next day.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>
